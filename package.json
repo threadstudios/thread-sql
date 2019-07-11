@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mysql": "^2.17.1"
+  },
+  "name": "@thread/sql",
+  "version": "0.1.0",
+  "description": "simple wrapper for sql",
+  "main": "src/index.js",
+  "author": "Paul Westerdale <paul@threadstud.io>",
+  "license": "MIT"
+}
