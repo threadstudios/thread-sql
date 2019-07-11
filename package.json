@@ -8,5 +8,8 @@
   "main": "src/index.js",
   "author": "Paul Westerdale <paul@threadstud.io>",
   "license": "MIT",
-  "repository": "git@github.com:threadstudios/thread-sql.git"
+  "repository": "git@github.com:threadstudios/thread-sql.git",
+  "publishConfig": {
+    "access": "public"
+  }
 }
