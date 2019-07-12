@@ -8,6 +8,4 @@ const connection = mysql.createConnection(process.env.JAWSDB_URL ? process.env.J
   database : process.env.MYSQL_DB
 })
 
-const sql = puresql.adapters.mysql(connection)
-
-export const sql;
+export const sql = puresql.adapters.mysql(connection);

@@ -19,8 +19,11 @@
     "url": "https://github.com/threadstudios/thread-sql/issues"
   },
   "homepage": "https://github.com/threadstudios/thread-sql#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
   "scripts": {
+    "build": "parcel build --target=node ./src/index.js -d ./dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
