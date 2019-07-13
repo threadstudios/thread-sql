@@ -3685,6 +3685,11 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
+pg-format@^1.0.2:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/pg-format/-/pg-format-1.0.4.tgz#27734236c2ad3f4e5064915a59334e20040a828e"
+  integrity sha1-J3NCNsKtP05QZJFaWTNOIAQKgo4=
+
 physical-cpu-count@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/physical-cpu-count/-/physical-cpu-count-2.0.0.tgz#18de2f97e4bf7a9551ad7511942b5496f7aba660"
@@ -4120,6 +4125,13 @@ punycode@^2.1.0, punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+
+puresql@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/puresql/-/puresql-1.7.1.tgz#9d723309d84b98fe72db4f2dbc9df8714416902e"
+  integrity sha512-ih5VvfwTO6ToNotyWSYw3sLcUfWrG16KDp0qZRODt+LLUGVP9+OZw7+oheceakPYs+rU0D9BImlaS9NQ+dVzgA==
+  dependencies:
+    pg-format "^1.0.2"
 
 q@^1.1.2:
   version "1.5.1"

@@ -1,4 +1,5 @@
 const mysql = require("mysql")
+const puresql = require("puresql");
 
 const connection = mysql.createConnection(process.env.JAWSDB_URL ? process.env.JAWSDB_URL : {
   host : process.env.MYSQL_HOST,
