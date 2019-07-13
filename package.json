@@ -5,7 +5,7 @@
   "name": "@threadws/sql",
   "version": "0.2.0",
   "description": "simple wrapper for sql",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "author": "Paul Westerdale <paul@threadstud.io>",
   "license": "MIT",
   "repository": {
