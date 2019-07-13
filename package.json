@@ -4,7 +4,7 @@
     "puresql": "^1.7.1"
   },
   "name": "@threadws/sql",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "simple wrapper for sql",
   "main": "dist/index.js",
   "author": "Paul Westerdale <paul@threadstud.io>",
